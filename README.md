@@ -47,7 +47,14 @@ Template of the folder structure, data files, and metadata files of the AI-READI
 This repository provides a template of the AI-READI dataset. It is meant to provide a place for the AI-READI team to workout the details of the structure of the data and metadata files in the dataset. It is also meant to provide an overview of the AI-READI dataset as well as an in-depth understanding of its structure to potential reusers of the dataset outside of the AI-READI team.
 
 ## Specifications
-The template of the AI-READI dataset will evolve as the standards we follow for data and metadata evolve. The latest template is available [here](main). 
+
+This template is based on the following fictitious situation:
+- The dataset includes data from four study participants (one at UCSD, one at UW, and two at UAB).
+- All the dataset has been collected, but some is missing for certain participant (e.g., activity monitoring data is missing for participant 0004).
+
+The participant.tsv file in the latest template provides an overview of this situation.
+
+The structure of the high-level structure of the data and metadata is based on the [Clinical Research Dataset Standards](https://github.com/AI-READI/high-level-dataset-structure). The data type specific data and metadata structure is based on data type specific standards being established in the [AI-READI project](https://aireadi.org/publications). The template of the AI-READI dataset will evolve as the standards we follow for data and metadata evolve. The latest template is available [here](main). 
 
 ## Structure of this repository
 Each version of the AI-READI dataset template is stored in a dedicated folder under the `versions` folder. The `main` folder contain a copy of the latest released version where edits/suggestions can be made via pull request. At the time of the release of a new version of the template, the version in the `main` folder will be copied in the `versions` folder and renamed after the new version number. Changes between the different versions are tracked in the [CHANGELOG](CHANGELOG.md) file. 
