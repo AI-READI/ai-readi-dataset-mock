@@ -1,12 +1,15 @@
 {
+    "participant_id": {
+        "description": "A participant identifier, matching a participant entity found in the dataset. Values in participant_id MUST be unique."
+    },
     "group": {
-        "Description": "experimental group the participant belonged to",
-        "Levels": {
+        "description": "experimental group the participant belonged to",
+        "levels": {
             "no_diabetes": "participants from the cohort with no diabetes",
             "lifestyle_controlled_diabetes": "participants from the cohort of lifestyle controlled-diabetes",
             "oral_medication_controlled_diabetes": "participants from the cohort of oral medication controlled diabetes",
             "insulin_controlled_diabetes": "participants from the cohort of insulin controlled diabetes"
         },
-        "Data type": "string"
+        "data_type": "string"
     }
 }
