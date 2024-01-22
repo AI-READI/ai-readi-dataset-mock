@@ -12,4 +12,13 @@
         },
         "data_type": "string"
     }
+    "<datatype_folder_name>": {
+        "description": "There MUST be one entry per datatype folder in the dataset, with the entry named exactly as the folder name.",
+        "levels": {
+            "full": "All the expected data for that datatype is available for the particiant",
+            "partial": "Not all of the expected data for that datatype is available for the particiant",
+            "none": "None of the expected data for that datatype is available for the particiants",
+        },
+        "data_type": "string"
+    }
 }
