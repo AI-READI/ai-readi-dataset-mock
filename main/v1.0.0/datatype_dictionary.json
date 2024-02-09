@@ -53,7 +53,7 @@
             }
         },
         {
-            "code_name": "eye_fundus_photography",
+            "code_name": "retinal_photography",
             "datatype_description": {
                 "description_text": "Data collected using a fundus camera to record color images of the condition of the interior surface of the eye.",
                 "description_source": {
@@ -187,7 +187,7 @@
             ]  
         },
         {
-            "code_name": "environmental_sensor_measurements",
+            "code_name": "environmental_sensor",
             "datatype_description": {
                 "description_text": "Data collected through environmental sensor device. Typically measures of air quality, light intensity, etc.",
                 "description_source": {
