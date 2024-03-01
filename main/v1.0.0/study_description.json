@@ -1,1 +1,311 @@
-{"Coming soon"}
+{
+  "identificationModule": {
+    "officialTitle": "AI Ready and Equitable Atlas for Diabetes Insights",
+    "acronym": "AI-READI",
+    "orgStudyIdInfo": {
+      "orgStudyId": "OT2OD032644",
+      "orgStudyIdType": "U.S. National Institutes of Health (NIH) Grant/Contract Award Number",
+      "orgStudyIdLink": "https://reporter.nih.gov/search/yatARMM-qUyKAhnQgsCTAQ/project-details/10885481"
+    },
+    "secondaryIdInfoList": [
+      {
+        "secondaryId": "NCT06002048",
+        "secondaryIdType": "ClinicalTrials.gov",
+        "secondaryIdLink": "https://classic.clinicaltrials.gov/ct2/show/NCT06002048"
+      }
+    ]
+  },
+  "statusModule": {
+    "overallStatus": "Enrolling by invitation",
+    "startDateStruct": {
+      "startDate": "2023-07-19",
+      "startDateType": "Actual"
+    },
+    "completionDateStruct": {
+      "completionDate": "2027-01-01",
+      "completionDateType": "Anticipated"
+    }
+  },
+  "sponsorCollaboratorsModule": {
+    "leadSponsor": {
+      "leadSponsorName": "University of Washington",
+      "leadSponsorIdentifier": "https://ror.org/00cvxb145",
+      "leadSponsorIdentifierScheme": "ROR",
+      "schemeURI": "https://ror.org/"
+    },
+    "responsibleParty": {
+      "responsiblePartyType": "Principal Investigator",
+      "responsiblePartyInvestigatorFirstName": "Aaron",
+      "responsiblePartyInvestigatorLastName": "Aaron",
+      "responsiblePartyInvestigatorTitle": "Associate Professor",
+      "responsiblePartyInvestigatorIdentifier": [
+        {
+          "responsiblePartyInvestigatorIdentifierValue": "https://orcid.org/0000-0002-7452-1648",
+          "responsiblePartyInvestigatorIdentifierScheme": "ORCID",
+          "schemeURI": "https://orcid.org/"
+        }
+      ],
+      "responsiblePartyInvestigatorAffiliation": {
+        "responsiblePartyInvestigatorAffiliationName": "University of Washington",
+        "responsiblePartyInvestigatorAffiliationIdentifier": "https://ror.org/00cvxb145",
+        "responsiblePartyInvestigatorAffiliationIdentifierScheme": "ROR",
+        "schemeURI": "https://ror.org/"
+      }
+    },
+    "collaboratorList": [
+      {
+        "collaboratorName": "National Institutes of Health",
+        "collaboratorNameIdentifier": "https://ror.org/01cwqze88",
+        "collaboratorNameIdentifierScheme": "ROR",
+        "schemeURI": "https://ror.org/"
+      },
+      {
+        "collaboratorName": "California Medical Innovations Institute",
+        "collaboratorNameIdentifier": "https://ror.org/0156zyn36",
+        "collaboratorNameIdentifierScheme": "ROR",
+        "schemeURI": "https://ror.org/"
+      },
+      {
+        "collaboratorName": "Johns Hopkins University",
+        "collaboratorNameIdentifier": "https://ror.org/00za53h95",
+        "collaboratorNameIdentifierScheme": "ROR",
+        "schemeURI": "https://ror.org/"
+      },
+      {
+        "collaboratorName": "Native BioData Consortium"
+      },
+      {
+        "collaboratorName": "Oregon Health & Science University",
+        "collaboratorNameIdentifier": "https://ror.org/009avj582",
+        "collaboratorNameIdentifierScheme": "ROR",
+        "schemeURI": "https://ror.org/"
+      },
+      {
+        "collaboratorName": "Stanford University",
+        "collaboratorNameIdentifier": "https://ror.org/00f54p054",
+        "collaboratorNameIdentifierScheme": "ROR",
+        "schemeURI": "https://ror.org/"
+      },
+      {
+        "collaboratorName": "University of Alabama at Birmingham",
+        "collaboratorNameIdentifier": "https://ror.org/008s83205",
+        "collaboratorNameIdentifierScheme": "ROR",
+        "schemeURI": "https://ror.org/"
+      },
+      {
+        "collaboratorName": "University of California, San Diego",
+        "collaboratorNameIdentifier": "https://ror.org/0168r3w48",
+        "collaboratorNameIdentifierScheme": "ROR",
+        "schemeURI": "https://ror.org/"
+      }
+    ]
+  },
+  "oversightModule": {
+    "isFDARegulatedDrug": "No",
+    "isFDARegulatedDevice": "No",
+    "humanSubjectReviewStatus": "Submitted, approved",
+    "oversightHasDMC": "No"
+  },
+  "descriptionModule": {
+    "briefSummary": "The study will collect a cross-sectional dataset of 4000 people across the US from diverse racial/ethnic groups who are either 1) healthy, or 2) belong in one of the three stages of diabetes severity (pre-diabetes/diet controlled, oral medication and/or non-insulin-injectable medication controlled, or insulin dependent), forming a total of four groups of patients. Clinical data (social determinants of health surveys, continuous glucose monitoring data, biomarkers, genetic data, retinal imaging, cognitive testing, etc.) will be collected. The purpose of this project is data generation to allow future creation of artificial intelligence/machine learning (AI/ML) algorithms aimed at defining disease trajectories and underlying genetic links in different racial/ethnic cohorts. A smaller subgroup of participants will be invited to come for a follow-up visit in year 4 of the project (longitudinal arm of the study). Data will be placed in an open-source repository and samples will be sent to the study sample repository and used for future research.",
+    "detailedDescription": "The Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights (AI-READI) project seeks to create a flagship ethically-sourced dataset to enable future generations of artificial intelligence/machine learning (AI/ML) research to provide critical insights into type 2 diabetes mellitus (T2DM), including salutogenic pathways to return to health. The ability to understand and affect the course of complex, multi-organ diseases such as T2DM has been limited by a lack of well-designed, high quality, large, and inclusive multimodal datasets. The AI-READI team of investigators will aim to collect a cross-sectional dataset of 4,000 people and longitudinal data from 10% of the study cohort across the US. The study cohort will be balanced for self-reported race/ethnicity, gender, and diabetes disease stage. Data collection will be specifically designed to permit downstream pseudo-time manifold analysis, an approach used to predict disease trajectories by collecting and learning from complex, multimodal data from participants with differing disease severity (normal to insulin-dependent T2DM). The long-term objective for this project is to develop a foundational dataset in T2DM, agnostic to existing classification criteria or biases, which can be used to reconstruct a temporal atlas of T2DM development and reversal towards health (i.e., salutogenesis). Six cross-disciplinary project modules involving teams located across eight institutions will work together to develop this flagship dataset. Data will be optimized for downstream AI/ML research and made publicly available. This project will also create a roadmap for ethical and equitable research that focuses on the diversity of the research participants and the workforce involved at all stages of the research process (study design and data collection, curation, analysis, and sharing and collaboration)."
+  },
+  "conditionsModule": {
+    "conditionList": [
+      {
+        "conditionName": "Type 2 Diabetes",
+        "conditionScheme": "Medical Subject Headings (MeSH)",
+        "schemeURI": "https://meshb.nlm.nih.gov/record/",
+        "conditionURI": "https://meshb.nlm.nih.gov/record/ui?ui=D003924",
+        "conditionClassificationCode": "D003924"
+      }
+    ],
+    "keywordList": [
+      {
+        "keywordValue": "Retinal Imaging"
+      },
+      {
+        "keywordValue": "Data Sharing",
+        "keywordScheme": "Medical Subject Headings (MeSH)",
+        "schemeURI": "https://meshb.nlm.nih.gov/record/",
+        "keywordURI": "https://meshb.nlm.nih.gov/record/ui?ui=D033181",
+        "keywordClassificationCode": "D033181"
+      },
+      {
+        "keywordValue": "Equitable Data Collection"
+      },
+      {
+        "keywordValue": "Machine Learning",
+        "keywordScheme": "Medical Subject Headings (MeSH)",
+        "schemeURI": "https://meshb.nlm.nih.gov/record/",
+        "keywordURI": "https://meshb.nlm.nih.gov/record/ui?ui=D000069550",
+        "keywordClassificationCode": "D000069550"
+      },
+      {
+        "keywordValue": "Artificial Intelligence",
+        "keywordScheme": "Medical Subject Headings (MeSH)",
+        "schemeURI": "https://meshb.nlm.nih.gov/record/",
+        "keywordURI": "https://meshb.nlm.nih.gov/record/ui?ui=D001185",
+        "keywordClassificationCode": "D001185"
+      }
+    ]
+  },
+  "designModule": {
+    "studyType": "Observational",
+    "isPatientRegistry": "No",
+    "designInfo": {
+      "designObservationalModelList": ["Cohort"],
+      "designTimePerspectiveList": ["Cross-sectional"]
+    },
+    "bioSpec": {
+      "bioSpecRetention": "Samples With DNA",
+      "bioSpecDescription": "Whole blood and urine samples will be retained in a biorepository",
+      "$comment": "Check wording of the description"
+    },
+    "enrollmentInfo": {
+      "enrollmentCount": "4000",
+      "enrollmentType": "Anticipated"
+    }
+  },
+  "armsInterventionsModule": {
+    "armGroupList": [
+      {
+        "armGroupLabel": "Healthy",
+        "armGroupDescription": "Participants who do not have Type 1 or Type 2 Diabetes",
+        "armGroupInterventionList": ["AI-READI protocol"]
+      },
+      {
+        "armGroupLabel": "Pre-diabetes/Diet Controlled",
+        "armGroupDescription": "Participants with pre-Type 2 Diabetes and those with Type 2 Diabetes whose blood sugar is controlled by diet",
+        "armGroupInterventionList": ["AI-READI protocol"]
+      },
+      {
+        "armGroupLabel": "Oral Medication and/or Non-insulin-injectable Medication Controlled",
+        "armGroupDescription": "Participants with Type 2 Diabetes whose blood sugar is controlled by oral or injectable medications other than insulin",
+        "armGroupInterventionList": ["AI-READI protocol"]
+      },
+      {
+        "armGroupLabel": "Insulin Dependent",
+        "armGroupDescription": "Participants with Type 2 Diabetes whose blood sugar is controlled by insulin",
+        "armGroupInterventionList": ["AI-READI protocol"]
+      }
+    ],
+    "interventionList": [
+      {
+        "interventionType": "Other",
+        "interventionName": "AI-READI protocol",
+        "interventionDescription": "Custom protocol followed for the AI-READI study. Details are available at https://docs.aireadi.org/"
+      }
+    ]
+  },
+  "eligibilityModule": {
+    "sex": "All",
+    "genderBased": "No",
+    "minimumAge": "40 Years",
+    "maximumAge": "85 Years",
+    "healthyVolunteers": "No",
+    "eligibilityCriteria": {
+      "eligibilityCriteriaInclusion": [
+        "Adults (≥ 40 years old)",
+        "Patients with and without type 2 diabetes",
+        "Able to provide consent",
+        "Must be able to read and speak English"
+      ],
+      "eligibilityCriteriaExclusion": [
+        "Adults older than 85 years of age",
+        "Pregnancy",
+        "Gestational diabetes",
+        "Type 1 diabetes"
+      ]
+    },
+    "studyPopulation": "Adult patients will be recruited into one of four groups: 1) healthy/no diabetes, 2) pre-diabetes/borderline diabetes/diet-controlled diabetes, 3) oral medication and/or non-insulin injectable medication controlled type 2 diabetes, or 4) insulin dependent type 2 diabetes. The investigators aim to recruit approximately 1000 patients into each of the four groups. Patients will be recruited from University of Washington (UW), University of California at San Diego (UCSD), and University of Alabama at Birmingham (UAB). The study aims to recruit 1,000 subjects from each of the following racial and ethnic groups: White, Asian, Hispanic, and Black. Subjects will be age- and sex-matched within and between groups.",
+    "samplingMethod": "Non-Probability Sample"
+  },
+  "contactsLocationsModule": {
+    "centralContactList": [
+      {
+        "centralContactFirstName": "Aaron",
+        "centralContactLastName": "Lee",
+        "centralContactDegree": "MD",
+        "centralContactIdentifier": [
+          {
+            "centralContactIdentifierValue": "https://orcid.org/0000-0002-7452-1648",
+            "centralContactIdentifierScheme": "ORCID",
+            "schemeURI": "https://orcid.org"
+          }
+        ],
+        "centralContactAffiliation": {
+          "centralContactAffiliationName": "University of Washington",
+          "centralContactAffiliationIdentifier": "https://ror.org/00cvxb145",
+          "centralContactAffiliationIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org"
+        },
+        "centralContactEMail": "leeay@uw.edu",
+        "$comment": "Is it fine to include email?"
+      }
+    ],
+    "overallOfficialList": [
+      {
+        "overallOfficialFirstName": "Aaron",
+        "overallOfficialLastName": "Lee",
+        "overallOfficialDegree": "MD",
+        "overallOfficialIdentifier": [
+          {
+            "overallOfficialIdentifierValue": "https://orcid.org/0000-0002-7452-1648",
+            "overallOfficialIdentifierScheme": "ORCID",
+            "schemeURI": "https://orcid.org"
+          }
+        ],
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "University of Washington",
+          "overallOfficialAffiliationIdentifier": "https://ror.org/00cvxb145",
+          "overallOfficialAffiliationIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org"
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
+      { "$comment": "Add all PIs here" }
+    ],
+    "locationList": [
+      {
+        "locationFacility": "University of Alabama at Birmingham",
+        "locationStatus": "Enrolling by invitation",
+        "locationCity": "Birmingham",
+        "locationZip": "35233",
+        "locationState": "Alabama",
+        "locationCountry": "United States",
+        "locationIdentifier": {
+          "locationIdentifierValue": "https://ror.org/008s83205",
+          "locationIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org/"
+        }
+      },
+      {
+        "locationFacility": "University of California, San Diego",
+        "locationStatus": "Enrolling by invitation",
+        "locationCity": "San Diego",
+        "locationZip": "92093",
+        "locationState": "California",
+        "locationCountry": "United States",
+        "locationIdentifier": {
+          "locationIdentifierValue": "https://ror.org/0168r3w48",
+          "locationIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org/"
+        }
+      },
+      {
+        "locationFacility": "University of Washington",
+        "locationStatus": "Enrolling by invitation",
+        "locationCity": "Seattle",
+        "locationZip": "98109",
+        "locationState": "Washington",
+        "locationCountry": "United States",
+        "locationIdentifier": {
+          "locationIdentifierValue": "https://ror.org/00cvxb145",
+          "locationIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org/"
+        }
+      }
+    ]
+  }
+}
