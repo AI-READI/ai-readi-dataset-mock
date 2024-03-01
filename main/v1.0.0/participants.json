@@ -1,15 +1,29 @@
 {
-    "participant_id": {
-        "description": "A participant identifier, matching a participant entity found in the dataset. Values in participant_id MUST be unique."
+  "participant_id": {
+    "description": "A participant identifier, matching a participant entity found in the dataset. Values in participant_id MUST be unique.",
+    "data_type": "string"
+  },
+  "group": {
+    "description": "Experimental group the participant belonged to",
+    "levels": {
+      "healthy": "Participants who do not have Type 1 or Type 2 Diabetes",
+      "pre-diabetes__diet_controlled": "Participants with pre-Type 2 Diabetes and those with Type 2 Diabetes whose blood sugar is controlled by diet",
+      "oral_medication_and_or_non_insulin_injectable_medication_controlled": "Participants with Type 2 Diabetes whose blood sugar is controlled by oral or injectable medications other than insulin",
+      "insulin_dependent": "Participants with Type 2 Diabetes whose blood sugar is controlled by insulin"
     },
-    "group": {
-        "description": "experimental group the participant belonged to",
-        "levels": {
-            "no_diabetes": "participants from the cohort with no diabetes",
-            "lifestyle_controlled_diabetes": "participants from the cohort of lifestyle controlled-diabetes",
-            "oral_medication_controlled_diabetes": "participants from the cohort of oral medication controlled diabetes",
-            "insulin_controlled_diabetes": "participants from the cohort of insulin controlled diabetes"
-        },
-        "data_type": "string"
-    }
+    "data_type": "string",
+    "additional_info": "Groups are defined following https://clinicaltrials.gov/study/NCT06002048"
+  },
+  "age": {
+    "description": "Age of the participant in years on the day of the visit",
+    "data_type": "integer"
+  },
+  "study_visit_date": {
+    "description": "Date of the visit. Must be in format YYYY-MM-DD",
+    "data_type": "date"
+  },
+  "training_set": {
+    "description": "Indication of wether the dataset creators suggest this participant data to be included in the training set if used for training AI/ML model. This indication is aimed at reducing potential biases in the model.",
+    "data_type": "boolean"
+  }
 }
