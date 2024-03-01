@@ -1,23 +1,28 @@
 
 # Flagship Dataset of Type 2 Diabetes from the AI-READI Project
 
-
 ## Latest version number
- V.1.0.0
+1.0
 
 ## Publication date
-December 31, 2023
+April 1st, 2024
+
+!comment: update date when available
 
 ## Identifier
 https://doi.org/10.5281/zenodo.7641684
 
+!comment: update DOI when available
+
 ## Overview of the study
-The AI-READI project seeks to create and share a flagship ethically-sourced dataset of type 2 diabetes. The data will be optimized for future artificial intelligence/machine learning (AI/ML) analysis that could provide critical insights and especially shine a light on the salutogenic pathways from diabetes to return to health. Six cross-disciplinary project modules involving teams located across eight institutions are working together to develop this flagship dataset. The project will aim to collect data from 4,000 participants across three sites: the University of Alabama at Birmingham (UAB), the University of California San Diego (UCSD), and the University of Washington (UW). To ensure the data is population-representative, the 4,000 participants will be balanced for three factors: disease severity, ethnicity, and sex. More information about the study can be found on the study website at [aireadi.org](https://aireadi.org). 
+The Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights (AI-READI) project seeks to create a flagship ethically-sourced dataset to enable future generations of artificial intelligence/machine learning (AI/ML) research to provide critical insights into type 2 diabetes mellitus (T2DM), including salutogenic pathways to return to health. The ability to understand and affect the course of complex, multi-organ diseases such as T2DM has been limited by a lack of well-designed, high quality, large, and inclusive multimodal datasets. The AI-READI team of investigators will aim to collect a cross-sectional dataset of 4,000 people and longitudinal data from 10% of the study cohort across the US. The study cohort will be balanced for self-reported race/ethnicity, gender, and diabetes disease stage. Data collection will be specifically designed to permit downstream pseudo-time manifold analysis, an approach used to predict disease trajectories by collecting and learning from complex, multimodal data from participants with differing disease severity (normal to insulin-dependent T2DM). The long-term objective for this project is to develop a foundational dataset in T2DM, agnostic to existing classification criteria or biases, which can be used to reconstruct a temporal atlas of T2DM development and reversal towards health (i.e., salutogenesis). Six cross-disciplinary project modules involving teams located across eight institutions will work together to develop this flagship dataset. Data will be optimized for downstream AI/ML research and made publicly available. This project will also create a roadmap for ethical and equitable research that focuses on the diversity of the research participants and the workforce involved at all stages of the research process (study design and data collection, curation, analysis, and sharing and collaboration).
 
 ## Description of the dataset
-This dataset contain data from 4 participants from the pilot study of the project. Details about the participants of the study are provided in the [participants.json](participants.json) metadata file. Data from multiple modalities are collected. A full list is provided in the "Data Standards" section below. The data in this dataset has been deidentified using awesome tools x, y, z and contain no personel health information (PHI).  
+This dataset contain data from 204 participants from the pilot period of the project (July 19, 2023 to November 30, 2023). Data from multiple modalities are included. A full list is provided in the "Data Standards" section below. The data in this dataset contain no personel health information (PHI).  
 
 The dataset contains a total of 1,265 files (including data and metadata files) and is 420 GB in size.
+
+A detailed description of the dataset is available at [docs.aireadi.org](https://docs.aireadi.org/).
 
 ## Protocol
 The protocol followed:
@@ -52,7 +57,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
  - AI-READI Project (2023). AI-READI Marker Paper. Best Journal, 61(53), 95-180. https://doi.org/10.5281/zenodo.7641684
 
 ## Contact
-For any questions, suggestions, or feedback related to this dataset, please email contact@aireadi.org. We refer to the [study_description.json](study_description.json) and [dataset_description.json](dataset_description.json) metadata files for additional information about contact person/entity, authors, and contributors of the dataset.
+For any questions, suggestions, or feedback related to this dataset, please email contact@aireadi.org. We refer to the study_description.json and dataset_description.json metadata files for additional information about contact person/entity, authors, and contributors of the dataset.
 
 ## Acknowledgement
-This project is supported by the NIH-funded Bridge2AI program ([1OT2OD032644](https://reporter.nih.gov/search/1ADgncihCk6fdMRJdCnBjg/project-details/10471118)). The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH.
+The AI-READI project is supported by the NIH-funded Bridge2AI program ([1OT2OD032644](https://reporter.nih.gov/search/1ADgncihCk6fdMRJdCnBjg/project-details/10471118)).
