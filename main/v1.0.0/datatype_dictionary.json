@@ -149,9 +149,9 @@
             ]
         },
         {
-            "code_name": "continuous_glucose_monitoring",
+            "code_name": "cgm",
             "datatype_description": {
-                "description_text": "Data collected through continuous glucose monitoring device.",
+                "description_text": "Data collected through continuous glucose monitoring (CGM) device.",
                 "description_source": {
                     "organization": { 
                         "organization_name": "AI-READI Consortium",
