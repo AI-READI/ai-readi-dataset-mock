@@ -29,9 +29,11 @@
   "sponsorCollaboratorsModule": {
     "leadSponsor": {
       "leadSponsorName": "University of Washington",
-      "leadSponsorIdentifier": "https://ror.org/00cvxb145",
-      "leadSponsorIdentifierScheme": "ROR",
-      "schemeURI": "https://ror.org/"
+      "leadSponsorIdentifier":{
+        "leadSponsorIdentifierValue": "https://ror.org/00cvxb145",
+        "leadSponsorIdentifierScheme": "ROR",
+        "schemeURI": "https://ror.org/"
+      }
     },
     "responsibleParty": {
       "responsiblePartyType": "Principal Investigator",
@@ -47,56 +49,72 @@
       ],
       "responsiblePartyInvestigatorAffiliation": {
         "responsiblePartyInvestigatorAffiliationName": "University of Washington",
-        "responsiblePartyInvestigatorAffiliationIdentifier": "https://ror.org/00cvxb145",
-        "responsiblePartyInvestigatorAffiliationIdentifierScheme": "ROR",
-        "schemeURI": "https://ror.org/"
+        "responsiblePartyInvestigatorAffiliationIdentifier": {
+          "responsiblePartyInvestigatorAffiliationIdentifierValue": "https://ror.org/00cvxb145",
+          "responsiblePartyInvestigatorAffiliationIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org/"
+        } 
       }
     },
     "collaboratorList": [
       {
         "collaboratorName": "National Institutes of Health",
-        "collaboratorNameIdentifier": "https://ror.org/01cwqze88",
-        "collaboratorNameIdentifierScheme": "ROR",
-        "schemeURI": "https://ror.org/"
+        "collaboratorNameIdentifier": {
+          "collaboratorNameIdentifierValue": "https://ror.org/01cwqze88",
+          "collaboratorNameIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org/"
+        }
       },
       {
         "collaboratorName": "California Medical Innovations Institute",
-        "collaboratorNameIdentifier": "https://ror.org/0156zyn36",
-        "collaboratorNameIdentifierScheme": "ROR",
-        "schemeURI": "https://ror.org/"
+        "collaboratorNameIdentifier": {
+          "collaboratorNameIdentifierValue": "https://ror.org/0156zyn36",
+          "collaboratorNameIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org/"
+        }
       },
       {
         "collaboratorName": "Johns Hopkins University",
-        "collaboratorNameIdentifier": "https://ror.org/00za53h95",
-        "collaboratorNameIdentifierScheme": "ROR",
-        "schemeURI": "https://ror.org/"
+        "collaboratorNameIdentifier": {
+          "collaboratorNameIdentifierValue": "https://ror.org/00za53h95",
+          "collaboratorNameIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org/"
+        }
       },
       {
         "collaboratorName": "Native BioData Consortium"
       },
       {
         "collaboratorName": "Oregon Health & Science University",
-        "collaboratorNameIdentifier": "https://ror.org/009avj582",
-        "collaboratorNameIdentifierScheme": "ROR",
-        "schemeURI": "https://ror.org/"
+        "collaboratorNameIdentifier": {
+          "collaboratorNameIdentifierValue": "https://ror.org/009avj582",
+          "collaboratorNameIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org/"
+        }
       },
       {
         "collaboratorName": "Stanford University",
-        "collaboratorNameIdentifier": "https://ror.org/00f54p054",
-        "collaboratorNameIdentifierScheme": "ROR",
-        "schemeURI": "https://ror.org/"
+        "collaboratorNameIdentifier": {
+          "collaboratorNameIdentifierValue": "https://ror.org/00f54p054",
+          "collaboratorNameIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org/"
+        }
       },
       {
         "collaboratorName": "University of Alabama at Birmingham",
-        "collaboratorNameIdentifier": "https://ror.org/008s83205",
-        "collaboratorNameIdentifierScheme": "ROR",
-        "schemeURI": "https://ror.org/"
+        "collaboratorNameIdentifier": {
+          "collaboratorNameIdentifierValue": "https://ror.org/008s83205",
+          "collaboratorNameIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org/"
+        }
       },
       {
         "collaboratorName": "University of California, San Diego",
-        "collaboratorNameIdentifier": "https://ror.org/0168r3w48",
-        "collaboratorNameIdentifierScheme": "ROR",
-        "schemeURI": "https://ror.org/"
+        "collaboratorNameIdentifier": {
+          "collaboratorNameIdentifierValue": "https://ror.org/0168r3w48",
+          "collaboratorNameIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org/"
+        }
       }
     ]
   },
@@ -114,10 +132,12 @@
     "conditionList": [
       {
         "conditionName": "Type 2 Diabetes",
-        "conditionScheme": "Medical Subject Headings (MeSH)",
-        "schemeURI": "https://meshb.nlm.nih.gov/record/",
-        "conditionURI": "https://meshb.nlm.nih.gov/record/ui?ui=D003924",
-        "conditionClassificationCode": "D003924"
+        "conditionIdentifier": {
+          "conditionClassificationCode": "D003924",
+          "conditionScheme": "Medical Subject Headings (MeSH)",
+          "schemeURI": "https://meshb.nlm.nih.gov/record/",
+          "conditionURI": "https://meshb.nlm.nih.gov/record/ui?ui=D003924"
+        }
       }
     ],
     "keywordList": [
@@ -126,27 +146,33 @@
       },
       {
         "keywordValue": "Data Sharing",
-        "keywordScheme": "Medical Subject Headings (MeSH)",
-        "schemeURI": "https://meshb.nlm.nih.gov/record/",
-        "keywordURI": "https://meshb.nlm.nih.gov/record/ui?ui=D033181",
-        "keywordClassificationCode": "D033181"
+        "keywordIdentifier": {
+          "keywordClassificationCode": "D033181",
+          "keywordScheme": "Medical Subject Headings (MeSH)",
+          "schemeURI": "https://meshb.nlm.nih.gov/record/",
+          "keywordURI": "https://meshb.nlm.nih.gov/record/ui?ui=D033181"
+        }
       },
       {
         "keywordValue": "Equitable Data Collection"
       },
       {
         "keywordValue": "Machine Learning",
-        "keywordScheme": "Medical Subject Headings (MeSH)",
-        "schemeURI": "https://meshb.nlm.nih.gov/record/",
-        "keywordURI": "https://meshb.nlm.nih.gov/record/ui?ui=D000069550",
-        "keywordClassificationCode": "D000069550"
+        "keywordIdentifier": {
+          "keywordClassificationCode": "D000069550",
+          "keywordScheme": "Medical Subject Headings (MeSH)",
+          "schemeURI": "https://meshb.nlm.nih.gov/record/",
+          "keywordURI": "https://meshb.nlm.nih.gov/record/ui?ui=D000069550"
+        }
       },
       {
         "keywordValue": "Artificial Intelligence",
-        "keywordScheme": "Medical Subject Headings (MeSH)",
-        "schemeURI": "https://meshb.nlm.nih.gov/record/",
-        "keywordURI": "https://meshb.nlm.nih.gov/record/ui?ui=D001185",
-        "keywordClassificationCode": "D001185"
+        "keywordIdentifier": {
+          "keywordClassificationCode": "D001185",
+          "keywordScheme": "Medical Subject Headings (MeSH)",
+          "schemeURI": "https://meshb.nlm.nih.gov/record/",
+          "keywordURI": "https://meshb.nlm.nih.gov/record/ui?ui=D001185"
+        }
       }
     ]
   },
@@ -236,9 +262,11 @@
         ],
         "centralContactAffiliation": {
           "centralContactAffiliationName": "University of Washington",
-          "centralContactAffiliationIdentifier": "https://ror.org/00cvxb145",
-          "centralContactAffiliationIdentifierScheme": "ROR",
-          "schemeURI": "https://ror.org"
+          "centralContactAffiliationIdentifier": {
+            "centralContactAffiliationIdentifierValue": "https://ror.org/00cvxb145",
+            "centralContactAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
         },
         "centralContactEMail": "leeay@uw.edu",
         "$comment": "Is it fine to include email?"
@@ -258,9 +286,11 @@
         ],
         "overallOfficialAffiliation": {
           "overallOfficialAffiliationName": "University of Washington",
-          "overallOfficialAffiliationIdentifier": "https://ror.org/00cvxb145",
-          "overallOfficialAffiliationIdentifierScheme": "ROR",
-          "schemeURI": "https://ror.org"
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/00cvxb145",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
         },
         "overallOfficialRole": "Study Principal Investigator"
       },
