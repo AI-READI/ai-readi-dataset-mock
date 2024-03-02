@@ -37,7 +37,7 @@ The protocol for curating and sharing the data can be found at [protocols.io](ht
 Accessing the dataset requires several steps, including:
 1. Login in through a verified ID system (such as Microsoft Entra Verified ID or Login.gov)
 2. Agreeing to use the data only for type 2 diabetes related research.
-3. Agreeing to the license terms which set certain restrictions on the data usage (see "License" section below). 
+3. Agreeing to the license terms which set certain restrictions and obligations for data usage (see "License" section below). 
 
 ## Data standards followed
 This dataset is organized following the [Clinical Dataset Structure (CDS) v0.1.0](https://github.com/AI-READI/high-level-dataset-structure). We refer to the CDS documentation for more details. Briefly, data is organized at the root level into one folder per datatype (c.f. Table below). Within each datatype folder, there is one folder per modality, if there are multiple modalities. Within each modality folder, there is one folder per device used to collect that modality. Within each device folder, there is one folder per participant. Each datype, modality, and device folder is named using a code name that best defines it while keeping it short. Each participant folder is named after the participant's ID number used in the study. For each datatype, the data files follow the standards listed in the Table below. More details are available in the datatype_dictionary metadata file included in this dataset. An example of the dataset structure (with mock data) is available [here](https://github.com/AI-READI/ai-readi-dataset-template/tree/main/versions).

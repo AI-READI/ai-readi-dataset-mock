@@ -135,7 +135,7 @@
         "conditionIdentifier": {
           "conditionClassificationCode": "D003924",
           "conditionScheme": "Medical Subject Headings (MeSH)",
-          "schemeURI": "https://meshb.nlm.nih.gov/record/",
+          "schemeURI": "https://meshb.nlm.nih.gov/",
           "conditionURI": "https://meshb.nlm.nih.gov/record/ui?ui=D003924"
         }
       }
@@ -149,7 +149,7 @@
         "keywordIdentifier": {
           "keywordClassificationCode": "D033181",
           "keywordScheme": "Medical Subject Headings (MeSH)",
-          "schemeURI": "https://meshb.nlm.nih.gov/record/",
+          "schemeURI": "https://meshb.nlm.nih.gov/",
           "keywordURI": "https://meshb.nlm.nih.gov/record/ui?ui=D033181"
         }
       },
@@ -161,7 +161,7 @@
         "keywordIdentifier": {
           "keywordClassificationCode": "D000069550",
           "keywordScheme": "Medical Subject Headings (MeSH)",
-          "schemeURI": "https://meshb.nlm.nih.gov/record/",
+          "schemeURI": "https://meshb.nlm.nih.gov/",
           "keywordURI": "https://meshb.nlm.nih.gov/record/ui?ui=D000069550"
         }
       },
@@ -170,9 +170,33 @@
         "keywordIdentifier": {
           "keywordClassificationCode": "D001185",
           "keywordScheme": "Medical Subject Headings (MeSH)",
-          "schemeURI": "https://meshb.nlm.nih.gov/record/",
+          "schemeURI": "https://meshb.nlm.nih.gov/",
           "keywordURI": "https://meshb.nlm.nih.gov/record/ui?ui=D001185"
         }
+      },
+      {
+        "keywordValue": "Electrocardiography",
+        "keywordIdentifier": {
+          "keywordClassificationCode": "D004562",
+          "keywordScheme": "Medical Subject Headings (MeSH)",
+          "schemeURI": "https://meshb.nlm.nih.gov/",
+          "keywordURI": "https://meshb.nlm.nih.gov/record/ui?ui=D004562"
+        }
+      },
+      {
+        "keywordValue": "Continuous Glucose Monitoring",
+        "keywordIdentifier": {
+          "keywordClassificationCode": "D000095583",
+          "keywordScheme": "Medical Subject Headings (MeSH)",
+          "schemeURI": "https://meshb.nlm.nih.gov/",
+          "keywordURI": "https://meshb.nlm.nih.gov/record/ui?ui=D000095583"
+        }
+      },
+      {
+        "keywordValue": "Retinal imaging"
+      },
+      {
+        "keywordValue": "Eye exam"
       }
     ]
   },
