@@ -5,7 +5,7 @@
 1.0
 
 ## Publication date
-April 1st, 2024
+2024-04-01
 
 !comment: update date when available
 
