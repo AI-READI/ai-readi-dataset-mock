@@ -7,7 +7,7 @@
     "description": "Experimental group the participant belonged to",
     "levels": {
       "healthy": "Participants who do not have Type 1 or Type 2 Diabetes",
-      "pre-diabetes__diet_controlled": "Participants with pre-Type 2 Diabetes and those with Type 2 Diabetes whose blood sugar is controlled by diet",
+      "pre_diabetes_diet_controlled": "Participants with pre-Type 2 Diabetes and those with Type 2 Diabetes whose blood sugar is controlled by diet",
       "oral_medication_and_or_non_insulin_injectable_medication_controlled": "Participants with Type 2 Diabetes whose blood sugar is controlled by oral or injectable medications other than insulin",
       "insulin_dependent": "Participants with Type 2 Diabetes whose blood sugar is controlled by insulin"
     },
