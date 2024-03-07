@@ -1,0 +1,58 @@
+{
+  "datasetStructure": [
+    {
+      "directoryName": "wearable_fitness_tracker",
+      "directoryType": "data type",
+      "directoryDescription": "This directory contains data collected through an wearable fitness tracker.",
+      "relatedTerm": [
+        { "relatedTermValue": "smartwatch" },
+        { "relatedTermValue": "activity monitoring" }
+      ],
+      "relatedStandard": [
+        {
+          "standardName": "Clinical Data Structure (CDS)",
+          "standardDescription": "The CDS is a standard for consistently structure and describing clinical research datasets",
+          "standardUse": "The sub-directories within this directory are organized according to the CDS",
+          "standardRelatedIdentifier": [
+            {
+              "relatedIdentifierValue": "https://cds-specification.vercel.app/",
+              "relatedIdentifierType": "URL",
+              "relationType": "IsDescribedBy"
+            }
+          ]
+        },
+        {
+          "standardName": "Open mHealth",
+          "standardDescription": "Open mHealth is the leading mobile health data interoperability standard.",
+          "standardUse": "All the data files within this directory follow the Open mHealth format",
+          "standardIdentifier": [
+            {
+              "identifierValue": "https://doi.org/10.25504/FAIRsharing.mrpMBj",
+              "identifierType": "DOI"
+            }
+          ],
+          "standardRelatedIdentifier": [
+            {
+              "relatedIdentifierValue": "https://www.openmhealth.org/",
+              "relatedIdentifierType": "URL",
+              "relationType": "IsDescribedBy"
+            }
+          ]         
+        }
+      ],
+      "subDirectory": [
+        {
+          "directoryName": "heart_rate",
+          "directoryType": "modality",
+          "directoryDescription": "This directory contains heart rate data",
+          "subDirectory": [
+            {
+            "directoryName": "garmin_vivosmart5",
+            "directoryType": "device"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
