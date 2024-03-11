@@ -15,32 +15,8 @@
   "version": "1.0",
   "creator": [
     {
-      "creatorName": "AI-READI Cosortium",
+      "creatorName": "AI-READI Consortium",
       "nameType": "Organizational"
-    }
-  ],
-  "contributor": [
-    {
-      "contributorType": "CollaboratingOrganisation",
-      "contributorName": "ut",
-      "nameType": "Personal",
-      "nameIdentifier": [
-        {
-          "nameIdentifierValue": "https://isni.org/isni/0000000492299539",
-          "nameIdentifierScheme": "ROR",
-          "schemeURI": "https://isni.org"
-        }
-      ],
-      "affiliation": [
-        {
-          "affiliationName": "DataCite",
-          "affiliationIdentifier": {
-            "affiliationIdentifierValue": "https://ror.org/04aj4c181",
-            "affiliationIdentifierScheme": "ROR",
-            "schemeURI": "https://ror.org/"
-          }
-        }
-      ]
     }
   ],
   "publicationYear": "2024",
@@ -61,22 +37,22 @@
     "resourceTypeGeneral": "Dataset"
   },
   "datasetDeIdentLevel": {
-    "deIdentType": "DeIdentificationApplied",
+    "deIdentType": "NoDeIdentification",
     "deIdentDirect": true,
     "deIdentHIPAA": true,
-    "deIdentDates": true,
+    "deIdentDates": false,
     "deIdentNonarr": false,
     "deIdentKAnon": false,
-    "deIdentDetails": "dolore culpa cupidatat"
+    "deIdentDetails": "No identifiers were collected so no active de-identification was necessary but we checked that no identifiable data per US HIPAA were present in the data."
   },
   "datasetConsent": {
-    "consentType": "GeneralResearchUse",
+    "consentType": "ConsentSpecifiedNotElsewhereCategorised",
     "consentNoncommercial": false,
     "consentGeogRestrict": false,
     "consentResearchType": false,
     "consentGeneticOnly": false,
     "consentNoMethods": false,
-    "consentsDetails": "do esse dolore Excepteur adipisicing"
+    "consentsDetails": "The public version of the dataset can only be used for type 2 diabetes related research. A private version will allow for more generic use."
   },
   "description": [
     {
@@ -185,10 +161,7 @@
   "publisher": {
     "publisherName": "FAIRhub"
   },
-  "size": [
-    "250 GB",
-    "2,000 files"
-  ],
+  "size": ["250 GB", "2,000 files"],
   "fundingReference": [
     {
       "funderName": "National Institutes of Health",
@@ -204,9 +177,5 @@
       "awardTitle": "Bridge2AI: Salutogenesis Data Generation Project"
     }
   ],
-  "format": [
-    "image/DICOM",
-    "text/markdown",
-    "table/csv"
-  ]
+  "format": ["image/DICOM", "text/markdown", "table/csv"]
 }

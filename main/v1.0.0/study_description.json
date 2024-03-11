@@ -29,7 +29,7 @@
   "sponsorCollaboratorsModule": {
     "leadSponsor": {
       "leadSponsorName": "University of Washington",
-      "leadSponsorIdentifier":{
+      "leadSponsorIdentifier": {
         "leadSponsorIdentifierValue": "https://ror.org/00cvxb145",
         "leadSponsorIdentifierScheme": "ROR",
         "schemeURI": "https://ror.org/"
@@ -53,7 +53,7 @@
           "responsiblePartyInvestigatorAffiliationIdentifierValue": "https://ror.org/00cvxb145",
           "responsiblePartyInvestigatorAffiliationIdentifierScheme": "ROR",
           "schemeURI": "https://ror.org/"
-        } 
+        }
       }
     },
     "collaboratorList": [
@@ -292,8 +292,7 @@
             "schemeURI": "https://ror.org"
           }
         },
-        "centralContactEMail": "leeay@uw.edu",
-        "$comment": "Is it fine to include email?"
+        "centralContactEMail": "contact@aireadi.org"
       }
     ],
     "overallOfficialList": [
