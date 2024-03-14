@@ -209,8 +209,7 @@
     },
     "bioSpec": {
       "bioSpecRetention": "Samples With DNA",
-      "bioSpecDescription": "Whole blood and urine samples will be retained in a biorepository",
-      "$comment": "Check wording of the description"
+      "bioSpecDescription": "Participants who consent are asked to provide both blood and urine for research use.  There are three distinct elements that follow from these collections;  first, a small amount of the collected blood is sent to the local collection site hospital lab for a complete blood cell count on the day of the encounter. Second, an addition portion of the blood and the urine sample are processed and stored at the collection site for batch shipment to the University of Washington Nutrition and Obesity Research Center for specialized lab tests.  Third, the remaining majority of the collected blood is processed into a variety of derivatives that are being used to establish a large repository of biospecimens at the University of Alabama at Birmingham to be used in research to further our understanding of diabetes, diabetic associated eye disease and other applications related to health and related diseases. These derivatives include isolated plasma, serum, DNA, buffy coats (white blood cells), blood stabilized for future isolation of RNA and peripheral blood mononuclear cells (PBMC).  These derivatives are separated into small aliquots to facilitate future approved research test and are stored at either -80oC or at cryogenic temperatures (PBMC)."
     },
     "enrollmentInfo": {
       "enrollmentCount": "4000",
@@ -317,7 +316,328 @@
         },
         "overallOfficialRole": "Study Principal Investigator"
       },
-      { "$comment": "Add all PIs here" }
+      {
+        "overallOfficialFirstName": "Cecilia",
+        "overallOfficialLastName": "Lee",
+        "overallOfficialDegree": "MD",
+        "overallOfficialIdentifier": [
+          {
+            "overallOfficialIdentifierValue": "https://orcid.org/0000-0003-1994-7213",
+            "overallOfficialIdentifierScheme": "ORCID",
+            "schemeURI": "https://orcid.org"
+          }
+        ],
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "University of Washington",
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/00cvxb145",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
+      {
+        "overallOfficialFirstName": "Sally",
+        "overallOfficialLastName": "Baxter",
+        "overallOfficialDegree": "MD",
+        "overallOfficialIdentifier": [
+          {
+            "overallOfficialIdentifierValue": "https://orcid.org/0000-0002-5271-7690",
+            "overallOfficialIdentifierScheme": "ORCID",
+            "schemeURI": "https://orcid.org"
+          }
+        ],
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "University of California, San Diego",
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/0168r3w48",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
+      {
+        "overallOfficialFirstName": "Christopher",
+        "overallOfficialLastName": "Chute",
+        "overallOfficialDegree": "MD",
+        "overallOfficialIdentifier": [
+          {
+            "overallOfficialIdentifierValue": "https://orcid.org/0000-0001-5437-2545",
+            "overallOfficialIdentifierScheme": "ORCID",
+            "schemeURI": "https://orcid.org"
+          }
+        ],
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "Johns Hopkins University",
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/0168r3w48",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
+      {
+        "overallOfficialFirstName": "Megan",
+        "overallOfficialLastName": "Collins",
+        "overallOfficialDegree": "MD",
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "Johns Hopkins University",
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/0168r3w48",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
+      {
+        "overallOfficialFirstName": "Kadija",
+        "overallOfficialLastName": "Ferryman",
+        "overallOfficialDegree": "PhD",
+        "overallOfficialIdentifier": [
+          {
+            "overallOfficialIdentifierValue": "https://orcid.org/0000-0001-8552-1822",
+            "overallOfficialIdentifierScheme": "ORCID",
+            "schemeURI": "https://orcid.org"
+          }
+        ],
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "Johns Hopkins University",
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/0168r3w48",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
+      {
+        "overallOfficialFirstName": "Samantha",
+        "overallOfficialLastName": "Hurst",
+        "overallOfficialDegree": "PhD",
+        "overallOfficialIdentifier": [
+          {
+            "overallOfficialIdentifierValue": "https://orcid.org/0000-0001-9843-2845",
+            "overallOfficialIdentifierScheme": "ORCID",
+            "schemeURI": "https://orcid.org"
+          }
+        ],
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "University of California, San Diego",
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/0168r3w48",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
+      {
+        "overallOfficialFirstName": "Hiroshi",
+        "overallOfficialLastName": "Ishikawa",
+        "overallOfficialDegree": "MD",
+        "overallOfficialIdentifier": [
+          {
+            "overallOfficialIdentifierValue": "https://orcid.org/0000-0001-6310-5748",
+            "overallOfficialIdentifierScheme": "ORCID",
+            "schemeURI": "https://orcid.org"
+          }
+        ],
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "Oregon Health & Science University",
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/009avj582",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
+      {
+        "overallOfficialFirstName": "T. Y. Alvin",
+        "overallOfficialLastName": "Liu",
+        "overallOfficialDegree": "MD",
+        "overallOfficialIdentifier": [
+          {
+            "overallOfficialIdentifierValue": "https://orcid.org/0000-0003-2957-0755",
+            "overallOfficialIdentifierScheme": "ORCID",
+            "schemeURI": "https://orcid.org"
+          }
+        ],
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "Johns Hopkins University",
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/0168r3w48",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
+      {
+        "overallOfficialFirstName": "Gerald",
+        "overallOfficialLastName": "McGwin",
+        "overallOfficialDegree": "PhD",
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "University of Alabama at Birmingham",
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/008s83205",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
+      {
+        "overallOfficialFirstName": "Shannon",
+        "overallOfficialLastName": "McWeeney",
+        "overallOfficialDegree": "PhD",
+        "overallOfficialIdentifier": [
+          {
+            "overallOfficialIdentifierValue": "https://orcid.org/0000-0001-8333-6607",
+            "overallOfficialIdentifierScheme": "ORCID",
+            "schemeURI": "https://orcid.org"
+          }
+        ],
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "Oregon Health & Science University",
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/009avj582",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
+      {
+        "overallOfficialFirstName": "Camille",
+        "overallOfficialLastName": "Nebeker",
+        "overallOfficialDegree": "EdD",
+        "overallOfficialIdentifier": [
+          {
+            "overallOfficialIdentifierValue": "https://orcid.org/0000-0001-6819-1796",
+            "overallOfficialIdentifierScheme": "ORCID",
+            "schemeURI": "https://orcid.org"
+          }
+        ],
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "University of California, San Diego",
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/0168r3w48",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
+      {
+        "overallOfficialFirstName": "Cynthia",
+        "overallOfficialLastName": "Owsley",
+        "overallOfficialDegree": "PhD",
+        "overallOfficialIdentifier": [
+          {
+            "overallOfficialIdentifierValue": "https://orcid.org/0000-0003-3424-011X",
+            "overallOfficialIdentifierScheme": "ORCID",
+            "schemeURI": "https://orcid.org"
+          }
+        ],
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "University of Alabama at Birmingham",
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/008s83205",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
+      {
+        "overallOfficialFirstName": "Bhavesh",
+        "overallOfficialLastName": "Patel",
+        "overallOfficialDegree": "PhD",
+        "overallOfficialIdentifier": [
+          {
+            "overallOfficialIdentifierValue": "https://orcid.org/0000-0002-0307-262X",
+            "overallOfficialIdentifierScheme": "ORCID",
+            "schemeURI": "https://orcid.org"
+          }
+        ],
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "California Medical Innovations Institute",
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/0156zyn36",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
+      {
+        "overallOfficialFirstName": "Michael",
+        "overallOfficialLastName": "Snyder",
+        "overallOfficialDegree": "PhD",
+        "overallOfficialIdentifier": [
+          {
+            "overallOfficialIdentifierValue": "https://orcid.org/0000-0003-0784-7987",
+            "overallOfficialIdentifierScheme": "ORCID",
+            "schemeURI": "https://orcid.org"
+          }
+        ],
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "Stanford University",
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/00f54p054",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
+      {
+        "overallOfficialFirstName": "Sara",
+        "overallOfficialLastName": "Singer",
+        "overallOfficialDegree": "PhD",
+        "overallOfficialIdentifier": [
+          {
+            "overallOfficialIdentifierValue": "http://orcid.org/0000-0002-3374-1177",
+            "overallOfficialIdentifierScheme": "ORCID",
+            "schemeURI": "https://orcid.org"
+          }
+        ],
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "Stanford University",
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/00f54p054",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
+      {
+        "overallOfficialFirstName": "Linda",
+        "overallOfficialLastName": "Zangwill",
+        "overallOfficialDegree": "PhD",
+        "overallOfficialIdentifier": [
+          {
+            "overallOfficialIdentifierValue": "https://orcid.org/0000-0002-1143-5224",
+            "overallOfficialIdentifierScheme": "ORCID",
+            "schemeURI": "https://orcid.org"
+          }
+        ],
+        "overallOfficialAffiliation": {
+          "overallOfficialAffiliationName": "University of California, San Diego",
+          "overallOfficialAffiliationIdentifier": {
+            "overallOfficialAffiliationIdentifierValue": "https://ror.org/0168r3w48",
+            "overallOfficialAffiliationIdentifierScheme": "ROR",
+            "schemeURI": "https://ror.org"
+          }
+        },
+        "overallOfficialRole": "Study Principal Investigator"
+      },
     ],
     "locationList": [
       {
