@@ -27,11 +27,7 @@ The dataset contains a total of 1,265 files (including data and metadata files) 
 A detailed description of the dataset is available at [docs.aireadi.org](https://docs.aireadi.org/).
 
 ## Protocol
-The protocol followed for collecting the data can be found at [protocols.io](https://protocols.io/).
-!comment: where protocol?
-
-The protocol for curating and sharing the data can be found at [protocols.io](https://protocols.io/). 
-!comment: where protocol?
+The protocol followed for collecting the data can be found at [docs.aireadi.org](https://docs.aireadi.org/).
 
 ## Dataset access/restrictions
 Accessing the dataset requires several steps, including:
@@ -40,19 +36,19 @@ Accessing the dataset requires several steps, including:
 3. Agreeing to the license terms which set certain restrictions and obligations for data usage (see "License" section below). 
 
 ## Data standards followed
-This dataset is organized following the [Clinical Dataset Structure (CDS) v0.1.0](https://github.com/AI-READI/high-level-dataset-structure). We refer to the CDS documentation for more details. Briefly, data is organized at the root level into one folder per datatype (c.f. Table below). Within each datatype folder, there is one folder per modality, if there are multiple modalities. Within each modality folder, there is one folder per device used to collect that modality. Within each device folder, there is one folder per participant. Each datype, modality, and device folder is named using a code name that best defines it while keeping it short. Each participant folder is named after the participant's ID number used in the study. For each datatype, the data files follow the standards listed in the Table below. More details are available in the datatype_dictionary metadata file included in this dataset. An example of the dataset structure (with mock data) is available [here](https://github.com/AI-READI/ai-readi-dataset-template/tree/main/versions).
+This dataset is organized following the [Clinical Dataset Structure (CDS) v0.1.0](https://github.com/AI-READI/high-level-dataset-structure). We refer to the CDS documentation for more details. Briefly, data is organized at the root level into one folder per datatype (c.f. Table below). Within each datatype folder, there is one folder per modality. Within each modality folder, there is one folder per device used to collect that modality. Within each device folder, there is one folder per participant. Each datype, modality, and device folder is named using a code name that best defines it while keeping it short. Each participant folder is named after the participant's ID number used in the study. For each datatype, the data files follow the standards listed in the Table below. More details are available in the dataset_structure_description.json metadata file included in this dataset. An example of the dataset structure is available [here](https://github.com/AI-READI/ai-readi-dataset-mock-up).
 
 | Datatype      | Code name | Description | File format standard followed |
 | ----------- | ----------- | ----------- | ----------- 
-| Activity Monitoring      | activity_monitoring  | description | Open mHealth
-| Contiuous Glucose Monitoring   | cgm      | description | Open mHealth
-| Clinical data     | clinical_data  | description | Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM)
-| Electrocardiogram    | ekg  | description | WaveForm DataBase (WFDB)
-| Environmental sensor data    | environmental_sensor  | description | Earth Science Data Systems (ESDS) format
-| Fluorescence Lifetime Imaging Ophthalmoscopy (FLIO) image   | flio | description | Digital Imaging and Communications in Medicine (DICOM)
-| Optical Coherence Tomography (OCT) image  | oct  | description | Digital Imaging and Communications in Medicine (DICOM)
-| Optical Coherence Tomography Angiography (OCTA) image  | octa  | description | Digital Imaging and Communications in Medicine (DICOM)
-| Retinal photography image    | retinal_photography  | description | Digital Imaging and Communications in Medicine (DICOM)
+| Activity Monitoring      | activity_monitoring  | description | [Open mHealth](https://www.openmhealth.org/documentation/#/schema-docs/schema-library)
+| Contiuous Glucose Monitoring   | cgm      | description | [Open mHealth](https://www.openmhealth.org/documentation/#/schema-docs/schema-library)
+| Clinical data     | clinical_data  | description | [Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM)](https://ohdsi.github.io/TheBookOfOhdsi)
+| Electrocardiogram    | ekg  | description | [WaveForm DataBase (WFDB)](https://wfdb.readthedocs.io/en/latest/wfdb.html)
+| Environmental sensor data    | environmental_sensor  | description | [Earth Science Data Systems (ESDS) format](https://www.earthdata.nasa.gov/esdis/esco/standards-and-practices/ascii-file-format-guidelines-for-earth-science-data)
+| Fluorescence Lifetime Imaging Ophthalmoscopy (FLIO) image   | flio | description | [Digital Imaging and Communications in Medicine (DICOM)](http://medical.nema.org/)
+| Optical Coherence Tomography (OCT) image  | oct  | description | [Digital Imaging and Communications in Medicine (DICOM)](http://medical.nema.org/)
+| Optical Coherence Tomography Angiography (OCTA) image  | octa  | description | [Digital Imaging and Communications in Medicine (DICOM)](http://medical.nema.org/)
+| Retinal photography image    | retinal_photography  | description | [Digital Imaging and Communications in Medicine (DICOM)](http://medical.nema.org/)
 
 
 !comment: add CDS link + description in table
@@ -60,20 +56,16 @@ This dataset is organized following the [Clinical Dataset Structure (CDS) v0.1.0
 ## Resources
 All of our data files are in formats that are accessible with free software commonly used for such data types so no specific software is required. Some useful resources related to this dataset are listed below:
 - Documentation of the dataset: [docs.aireadi.org](https://docs.aireadi.org/)
-- Dataset template with mock data and metadata: [GitHub template](https://github.com/AI-READI/ai-readi-dataset-template/tree/main/versions)
+- Dataset mock-up: [GitHub template](https://github.com/AI-READI/ai-readi-dataset-mock-up)
 - AI-READI project website: [aireadi.org](https://aireadi.org/)
 - Zenodo community of the AI-READI project: [zenodo.org/communities/aireadi](https://zenodo.org/communities/aireadi)
 - GitHub organization of the AI-READI project: [github.com/AI-READI](https://github.com/AI-READI)
 
 ## License
-This work is licensed under a custom License. These license terms were specifically tailored to enable reuse of the AI-READI dataset (and other clinical datasets) for commercial or research purpose while putting strong requirements around data usage, security, and secondary sharing to protect study participants, especially when data is reused for artificial intelligence (AI) and machine learning (ML) related applications. More details are available in the License file available at https://doi.org/10.5281/zenodo.10642459. 
+This work is licensed under a custom license specifically tailored to enable reuse of the AI-READI dataset (and other clinical datasets) for commercial or research purpose while putting strong requirements around data usage, security, and secondary sharing to protect study participants, especially when data is reused for artificial intelligence (AI) and machine learning (ML) related applications. More details are available in the License file included in the dataset and also available at https://doi.org/10.5281/zenodo.10642459. 
 
 ## How to cite
- If you use this dataset for any purpose, please cite the dataset on FAIRhub and the AI-READI marker paper:
- - AI-READI project. (2023). Flagship Dataset of Type 2 Diabetes from the AI-READI Project (1.0.0). FAIRhub. https://doi.org/10.5281/zenodo.7641684
- - AI-READI Project (2023). AI-READI Marker Paper. Best Journal, 61(53), 95-180. https://doi.org/10.5281/zenodo.7641684
-
- !comment: Add citations when available
+ If you use this dataset for any purpose, please cite the dataset the resources specified in the [AI-READI documentation](https://docs.aireadi.org/docs/1/citation).
 
 ## Contact
 For any questions, suggestions, or feedback related to this dataset, please email contact@aireadi.org. We refer to the study_description.json and dataset_description.json metadata files included in this dataset for additional information about contact person/entity, authors, and contributors of the dataset.
