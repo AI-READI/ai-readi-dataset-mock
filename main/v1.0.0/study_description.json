@@ -243,7 +243,7 @@
       {
         "interventionType": "Other",
         "interventionName": "AI-READI protocol",
-        "interventionDescription": "Custom protocol followed for the AI-READI study. Details are available at https://docs.aireadi.org/"
+        "interventionDescription": "Custom protocol followed for the AI-READI study. Details are available at in the documentation of v1.0.0 of the dataset at https://docs.aireadi.org/"
       }
     ]
   },

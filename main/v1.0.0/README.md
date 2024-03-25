@@ -24,10 +24,10 @@ The dataset contains a total of 1,265 files (including data and metadata files) 
 
 !comment: Update final file count and dataset size.
 
-A detailed description of the dataset is available at [docs.aireadi.org](https://docs.aireadi.org/).
+A detailed description of the dataset is available in the AI-READI documentation for v1.0.0 of the dataset at [docs.aireadi.org](https://docs.aireadi.org/).
 
 ## Protocol
-The protocol followed for collecting the data can be found at [docs.aireadi.org](https://docs.aireadi.org/).
+The protocol followed for collecting the data can be found in the AI-READI documentation for v1.0.0 of the dataset at [docs.aireadi.org](https://docs.aireadi.org/).
 
 ## Dataset access/restrictions
 Accessing the dataset requires several steps, including:
@@ -55,7 +55,7 @@ This dataset is organized following the [Clinical Dataset Structure (CDS) v0.1.0
 
 ## Resources
 All of our data files are in formats that are accessible with free software commonly used for such data types so no specific software is required. Some useful resources related to this dataset are listed below:
-- Documentation of the dataset: [docs.aireadi.org](https://docs.aireadi.org/)
+- Documentation of the dataset: [docs.aireadi.org](https://docs.aireadi.org/) (see 'Dataset v1.0.0' for this version of the dataset)
 - Dataset mock-up: [GitHub template](https://github.com/AI-READI/ai-readi-dataset-mock-up)
 - AI-READI project website: [aireadi.org](https://aireadi.org/)
 - Zenodo community of the AI-READI project: [zenodo.org/communities/aireadi](https://zenodo.org/communities/aireadi)
@@ -65,7 +65,7 @@ All of our data files are in formats that are accessible with free software comm
 This work is licensed under a custom license specifically tailored to enable reuse of the AI-READI dataset (and other clinical datasets) for commercial or research purpose while putting strong requirements around data usage, security, and secondary sharing to protect study participants, especially when data is reused for artificial intelligence (AI) and machine learning (ML) related applications. More details are available in the License file included in the dataset and also available at https://doi.org/10.5281/zenodo.10642459. 
 
 ## How to cite
- If you use this dataset for any purpose, please cite the dataset the resources specified in the [AI-READI documentation](https://docs.aireadi.org/docs/1/citation).
+ If you use this dataset for any purpose, please cite the dataset the resources specified in the AI-READI documentation for version 1.0.0 of the dataset at https://docs.aireadi.org.
 
 ## Contact
 For any questions, suggestions, or feedback related to this dataset, please email contact@aireadi.org. We refer to the study_description.json and dataset_description.json metadata files included in this dataset for additional information about contact person/entity, authors, and contributors of the dataset.
