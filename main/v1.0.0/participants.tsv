@@ -1,5 +1,5 @@
-participant_id	age	study_visit_date	group	training_set	activity_monitoring	cgm	clinical_data	ekg	environmental_sensor	flio	oct	octa	retinal_photography
-2354	55	8/17/2023	no_diabetes	TRUE	TRUE	TRUE	TRUE	TRUE	FALSE	TRUE	FALSE	TRUE	TRUE
-1457	64	10/7/2023	lifestyle_controlled_diabetes	FALSE	TRUE	TRUE	TRUE	FALSE	TRUE	TRUE	TRUE	TRUE	TRUE
-25	48	11/28/2023	oral_medication_controlled_diabetes	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE
-574	71	9/30/2023	insulin_dependent_diabetes	TRUE	TRUE	TRUE	TRUE	TRUE	FALSE	TRUE	TRUE	TRUE	TRUE
+participant_id	clinical_site	study_group	age	study_visit_date	recommended_split	cardiac_ecg	clinical_data	environment	retinal_flio	retinal_oct	retinal_octa	retinal_photography	wearable_activity_monitor	wearable_blood_glucose
+101	UW	oral_medication_and_or_non_insulin_injectable_medication_controlled	55	7/29/2023	train	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE
+102	UCSD	healthy	71	8/15/2023	train	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	FALSE	FALSE
+103	UCSD	pre_diabetes_lifestyle_controlled	66	9/22/2023	val	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE
+104	UAB	healthy	52	10/4/2023	test	TRUE	TRUE	FALSE	TRUE	TRUE	TRUE	TRUE	TRUE	FALSE
