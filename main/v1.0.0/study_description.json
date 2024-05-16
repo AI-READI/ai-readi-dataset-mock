@@ -38,7 +38,7 @@
     "responsibleParty": {
       "responsiblePartyType": "Principal Investigator",
       "responsiblePartyInvestigatorFirstName": "Aaron",
-      "responsiblePartyInvestigatorLastName": "Aaron",
+      "responsiblePartyInvestigatorLastName": "Lee",
       "responsiblePartyInvestigatorTitle": "Associate Professor",
       "responsiblePartyInvestigatorIdentifier": [
         {
@@ -252,7 +252,7 @@
     "genderBased": "No",
     "minimumAge": "40 Years",
     "maximumAge": "85 Years",
-    "healthyVolunteers": "No",
+    "healthyVolunteers": "No",  
     "eligibilityCriteria": {
       "eligibilityCriteriaInclusion": [
         "Adults (≥ 40 years old)",
